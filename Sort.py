@@ -20,15 +20,15 @@ def insertion_sort(arr): #smallest number gets sorted first
 #array = 23 13 43 1 62 10 31 56 
 
 def bubble_sort(arr): #biggest number gets sorted first
-    #for i in range (len(arr)):
-    swapped=True
-    while swapped:
-        swapped=False
+    for i in range (len(arr)):
+    #swapped=True
+    """while swapped:
+        swapped=False"""
         for j in range(len(arr)-1):
             if arr[j]>arr[j+1]:
                 arr[j],arr[j+1]=arr[j+1],arr[j]
                 swapped=True
-            print(arr)   
+        print(arr)   
     return arr
 
 
